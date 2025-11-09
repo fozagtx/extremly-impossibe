@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem; /* spacing between menu items */
+}
+
+.nav li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
